@@ -1,0 +1,482 @@
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(D B)
+[Pai] request(caminhos) -> inform(D B)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E B)
+[Pai] request(caminhos) -> inform(E B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E C)
+[Pai] request(caminhos) -> inform(E C)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(D B)
+[Pai] request(caminhos) -> inform(D B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D C)
+[Pai] request(caminhos) -> inform(E D C)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(D C B)
+[Pai] request(caminhos) -> inform(D C B)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(D C)
+[Pai] request(caminhos) -> inform(D C)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E)
+[Pai] request(caminhos) -> inform(E)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D C B)
+[Pai] request(caminhos) -> inform(E D C B)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E C B)
+[Pai] request(caminhos) -> inform(E C B)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E B)
+[Pai] request(caminhos) -> inform(E B)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(D B)
+[Pai] request(caminhos) -> inform(D B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D C)
+[Pai] request(caminhos) -> inform(E D C)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(E D)
+[Pai] request(caminhos) -> inform(E D)
+[Labirinto] <- subscribe(E) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(E) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(D C)
+[Pai] request(caminhos) -> inform(D C)
+[Labirinto] <- subscribe(C) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(C) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> failure(objetivo)
+[Pai] query-if(objetivo) -> failure(objetivo)
+[Labirinto] <- request(caminhos) de pai
+[Labirinto] -> inform(C B)
+[Pai] request(caminhos) -> inform(C B)
+[Labirinto] <- subscribe(B) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(B) -> inform(ok)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- subscribe(D) de pai
+[Labirinto] -> inform(ok)
+[Pai] subscribe(D) -> inform(ok)
+[Labirinto] <- query-if(objetivo) de pai
+[Labirinto] -> inform-done(objetivo)
+[Pai] query-if(objetivo) -> inform-done(objetivo)
+[Pai] DFS achou a saida. Caminho da DFS (19): DDDDBBEEBBDDDDDDBBD
+[Pai] Caminho otimizado (15): BBBBDDDDDDDDBBD
+[Filho] <- propose(BBBBDDDDDDDDBBD)
+[Labirinto] <- subscribe(B) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(B) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(B) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(B) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(B) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(B) de filho
+[Labirinto] -> inform(ok)
+[Labirinto] <- subscribe(D) de filho
+[Labirinto] -> inform(ok)
+[Pai] Filho respondeu: Cheguei!
+[Labirinto] posicao final do Filho: (7, 10) (objetivo: (7, 10))
